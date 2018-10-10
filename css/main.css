@@ -1,44 +1,46 @@
 html {
   background-color: #c9b5ab;
-  max-width: 800px;
+  max-width: 608px;
   line-height: 1.5;
   color: #222;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 
 h1, h2 {
-  font-family: 'PT Sans: bold', sans-serif;
+  font-family: "PT Sans: bold", sans-serif;
+  font-size: 1.5rem;
   color: #3f1622;
 }
 
 .navigation {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.navigation li [href^="#common-varieties"], [href^="#nutritional-information"], [href^="#tags"] {
-  font-family: 'PT Sans', sans-serif;
+.navigation li a {
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: #8f2440;
 }
 
-.navigation li [href^="#common-varieties"]:hover, [href^="#nutritional-information"]:hover, [href^="#tags"]:hover {
-  font-family: 'PT Sans', sans-serif;
+.navigation li a:hover {
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: #3f1622;
 }
 
 main figure {
   font-style: italic;
+  font-weight: 600;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: .8rem;
 }
 
 .germination {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
@@ -50,15 +52,16 @@ blockquote p {
 }
 
 .pratt {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
   text-align: left;
 }
 
 ol {
-    list-style-type: lower-greek;
+  list-style-type: lower-greek;
 }
-dl dt{
+
+dl dt {
   font-weight: bold;
 }
 
@@ -68,14 +71,15 @@ dl dt:first-child, dd:nth-child(2) {
 }
 
 aside ul {
-    list-style-type: circle;
+  list-style-type: circle;
+  font-size: .8rem;
 }
 
-.wikipedia {
+footer small a {
   color: #8f2440;
 }
 
-.wikipedia:hover {
+footer small a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
