@@ -1,6 +1,6 @@
 html {
   background-color: #c9b5ab;
-  max-width: 608px;
+  max-width: 608em;
   line-height: 1.5;
   color: #222;
   font-family: "PT Serif", serif;
@@ -32,11 +32,15 @@ h1, h2 {
   color: #3f1622;
 }
 
-main figure {
+figure {
   font-style: italic;
   font-weight: 600;
   text-align: center;
   font-size: .8rem;
+}
+
+img {
+  width: 100%;
 }
 
 .germination {
@@ -47,7 +51,7 @@ main figure {
 blockquote p {
   font-weight: 600;
   font-style: italic;
-  text-align: center;
+  text-align: left;
   font-size: 1.5rem;
 }
 
@@ -75,11 +79,12 @@ aside ul {
   font-size: .8rem;
 }
 
-footer small a {
+a {
+  text-decoration: underline;
   color: #8f2440;
 }
 
-footer small a:hover {
+a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
